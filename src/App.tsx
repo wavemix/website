@@ -91,35 +91,25 @@ function App() {
 
         {/* Philosophy Section */}
         <section className="bg-slate-900/30 backdrop-blur-md border-y border-white/5 py-16">
-          <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">AUM Proyectado</div>
-      </div>
-      <div className="text-center">
-        <div className="text-3xl md:text-4xl font-bold text-yellow-500 mb-1">24/7</div>
-        <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Ejecución</div>
-      </div>
-      <div className="text-center">
-        <div className="text-3xl md:text-4xl font-bold text-white mb-1">12%</div>
-        <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Objetivo ROI</div>
-      </div>
-      <div className="text-center">
-        <div className="text-3xl md:text-4xl font-bold text-emerald-500 mb-1">0.1ms</div>
-        <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Latencia</div>
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <h2 className="text-2xl font-bold text-white mb-6 underline decoration-yellow-500 decoration-2 underline-offset-8">Visión de Sociedad</h2>
+            <p className="text-slate-400 text-lg leading-relaxed italic">
+              "No buscamos inversionistas externos, buscamos construir compañías sólidas que operen bajo estándares de excelencia técnica y rentabilidad sostenible, utilizando Wavemix como el motor de innovación y soporte financiero."
+            </p>
+          </div>
+        </section>
+
+        {/* Footer */}
+        <footer className="max-w-6xl mx-auto px-6 py-12 text-center border-t border-white/5">
+          <div className="text-slate-500 text-sm">
+            © 2024 Wavemix Inversiones SpA. Sociedad de Inversión Privada. <br className="md:hidden" />
+            <span className="hidden md:inline mx-2">•</span>
+            Confidencialidad & Visión de Largo Plazo.
+          </div>
+        </footer>
       </div>
     </div>
-        </section >
-
-    {/* Footer */ }
-    < footer className = "max-w-6xl mx-auto px-6 py-12 text-center border-t border-white/5" >
-      <div className="text-slate-500 text-sm">
-        © 2024 Wavemix Private Equity. Todos los derechos reservados. <br className="md:hidden" />
-        <span className="hidden md:inline mx-2">•</span>
-        Confidencialidad Garantizada.
-      </div>
-        </footer >
-      </div >
-    </div >
   );
 }
 
 export default App;
-
